@@ -2,7 +2,7 @@
 
 var time = Time.now
 
-if time % 2 == 0
+if time.to_i[-1] % 2 == 0
   "Even!"
 else
   "Odd!"

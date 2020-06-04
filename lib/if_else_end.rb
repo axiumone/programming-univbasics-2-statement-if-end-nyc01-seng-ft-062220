@@ -1,6 +1,6 @@
 # Write your solution here
   if Time.now.sec.to_i % 2 == 0
-    "Even!"
+    puts "Even!"
   else
-    "Odd!"
+    puts "Odd!"
   end

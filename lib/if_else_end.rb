@@ -3,7 +3,7 @@
 var time = Time.now
 
 if time % 2 == 0
-  true
+  "Even!"
 else
-  false
+  "Odd!"
 end
